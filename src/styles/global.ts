@@ -13,6 +13,11 @@ export default createGlobalStyle`
     max-width: 960px;
     margin: 0 auto;
     padding: 56px 24px;
+
+    @media (max-width: 500px) {
+    align-items:center;
+    vertical-align: baseline;
+  }
   }
 
   `;

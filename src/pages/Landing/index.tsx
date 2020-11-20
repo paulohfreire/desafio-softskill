@@ -22,7 +22,9 @@ const Landing: React.FC = () => {
                         Leia Mais
                     </button>
 
-                    <button type="button">Assista</button>
+                    <button type="button" className="inlined">
+                        Veja Mais
+                    </button>
                 </div>
 
                 <h2>

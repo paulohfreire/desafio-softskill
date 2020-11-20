@@ -28,6 +28,10 @@ export const PageInfo = styled.section`
         letter-spacing: -12.4px;
         text-align: center;
 
+        @media (max-width: 500px) {
+            font-size: 80px;
+            line-height: 80px;
+        }
         span {
             padding: 0 6.7px;
 
@@ -71,6 +75,13 @@ export const PageInfo = styled.section`
             cursor: pointer;
             transition: 0.2s ease-in;
 
+            &.inlined {
+                color: gray;
+                &:hover {
+                    border: 1px solid black;
+                    color: black;
+                }
+            }
             &.outlined {
                 background: #000000;
                 color: #fff;
