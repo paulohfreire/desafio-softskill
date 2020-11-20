@@ -18,13 +18,21 @@ const Landing: React.FC = () => {
                 </h1>
 
                 <div>
-                    <button type="button" className="outlined">
+                    <a
+                        href="http://shorturl.at/cjqAD"
+                        type="button"
+                        className="outlined"
+                    >
                         Leia Mais
-                    </button>
+                    </a>
 
-                    <button type="button" className="inlined">
+                    <a
+                        href="http://shorturl.at/muBX2"
+                        type="button"
+                        className="inlined"
+                    >
                         Veja Mais
-                    </button>
+                    </a>
                 </div>
 
                 <h2>

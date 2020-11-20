@@ -61,7 +61,7 @@ export const PageInfo = styled.section`
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        button {
+        a {
             background-color: #fff;
             color: #000000;
             border-radius: 0.4rem;
@@ -72,6 +72,7 @@ export const PageInfo = styled.section`
 
             font-size: 16px;
             font-weight: 500;
+            text-decoration: none;
             cursor: pointer;
             transition: 0.2s ease-in;
 
