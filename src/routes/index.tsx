@@ -6,7 +6,7 @@ const Routes: React.FC = () => {
     return (
         <Switch>
             <Route path="/" exact component={Landing} />
-      </Switch>
+        </Switch>
     );
 };
 
