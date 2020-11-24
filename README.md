@@ -2,7 +2,7 @@
 
 Landing Page criada para apresentar de forma prática uma importante softskill não só para desenvolvedores, mas para qualquer carreira.
 
-# Para rodar o site use:
+# Para rodar a aplicação em ambiente de desenvolvimento, use:
 
 ### `yarn start`
 
